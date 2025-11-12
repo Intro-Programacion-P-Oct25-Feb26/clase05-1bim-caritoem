@@ -20,6 +20,8 @@ public class Ejemplo1 {
     Scanner entrada = new Scanner(System.in);
     entrada.useLocale(Locale.US);
     double promedio;
+    double limiteNotas = 6.9;
+    
     
     System.out.println("Ingrese un valor para analizar");
     double promedio = entrada.nextDouble();
@@ -32,7 +34,7 @@ public class Ejemplo1 {
                     + "promedio: %.2f\n", promedio);
         }
 
-        if (promedio == 7.5) {
+        if (promedio == limiteNotas) { 
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
         }
