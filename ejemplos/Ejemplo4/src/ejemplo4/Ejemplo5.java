@@ -24,7 +24,7 @@ public class Ejemplo5 {
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
 
-        if (!ciudad.equals("Loja")) {
+        if (!ciudad.equals("Loja")) { // esta comparando usando la cadena
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
@@ -34,7 +34,7 @@ public class Ejemplo5 {
 
         if (numero != 10) {
             System.out.println("correcto");
-        }
+        } // dice que no pertenece y si no pertenece no accede
 
     }
 
