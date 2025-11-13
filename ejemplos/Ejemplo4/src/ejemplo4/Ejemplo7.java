@@ -33,7 +33,8 @@ public class Ejemplo7 {
         // "Loja" se obtiene "L"
         
 
-        if ( inicial.equals("P") || inicial.equals("G")) {
+        if ( inicial.equals("P") || inicial.equals("G") ||
+             inicial.equals("P") || inicial.equals("g")) {
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
